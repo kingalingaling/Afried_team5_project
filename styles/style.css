@@ -41,6 +41,7 @@ body {
   cursor: pointer;
   animation-name: scale-up;
   animation-duration: 0.3s;
+  animation-fill-mode: forwards;
 }
 
 .card img {
@@ -114,6 +115,6 @@ body {
         scale: 1;
     }
     to {
-        scale:1.1;
+        scale:1.051;
     }
 }
